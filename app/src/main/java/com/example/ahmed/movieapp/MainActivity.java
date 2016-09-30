@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements Communicator{
 
     public void sendPositionAndJson(int position, String json) {
 
-        if(findViewById(R.id.fragment2)!=null ){
+        if(findViewById(R.id.fragment2)!= null ){
 
             detailedFragment = new MovieDetailsFragment();
             Bundle bundle = new Bundle() ;
